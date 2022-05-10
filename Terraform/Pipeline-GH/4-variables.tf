@@ -13,18 +13,18 @@ variable "resourceGroupName" {
 }
 
 # Variables pour l'authentification du provider Terraform  
-variable "AzureSubscriptionID" {
+variable "AZURESUBSCRIPTIONID" {
   type = string
 }
 
-variable "AzureClientSecret" {
+variable "AZURECLIENTSECRET" {
   type = string
 }
 
-variable "AzureClientID" {
+variable "AZURECLIENTID" {
   type = string
 }
 
-variable "AzureTenandID" {
+variable "AZURETENANDID" {
   type = string
 }
